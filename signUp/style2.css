@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+
+}
+
+.wrapper{
+    margin: 5vh auto;
+    width: 100%;
+    max-width: 1140px;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: flex;
+    background: #ffffff;
+    box-shadow: 0 0 5px #999999;
+}
+
+.login .col-left,
+.login .col-right{
+    padding: 30px;
+    display: flex;
+}
+
+.login .col-left{
+    width: 60%;
+    clip-path: polygon(0 0, 0% 100%, 100% 0);
+    background: #83e7f2;
+}
+
+.login .col-right{
+    padding: 60px 30px;
+    width: 50%;
+    margin-left: -10%;
+}
+
+.login .login-text h2{
+    margin: 0 0 15px 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.login .login-text p{
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+
+.login .login-form{
+    position: relative;
+    width: 100%;
+}
+.login .login-form h2{
+    margin: 0 0 15px 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.login .login-form p{
+    margin: 0 0 10px 0;
+    text-align: left;
+    color: #666666;
+    font-size: 15px;
+}
+
+.login .login-form p:last-child{
+    margin: 0;
+    padding-top: 3px;
+}
+
+.login .login-form p .atag{
+    color:#666666;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.login .login-form label {
+    display: block;
+    width: 100%;
+    margin-bottom: 2px;
+    letter-spacing: 2px;
+}
+
+
+.login .login-form input{
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    outline: none;
+    border: 1px solid #cccccc;
+    border-radius: 30px;
+}
+
+.login .login-form input:focus{
+    border-color: #817574;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.btn1{
+    color: #666666;
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    border: 1px solid #cccccc;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    background: hsl(0, 0%, 100%);
+    box-shadow: 0 0 0 1px rgba(0,0,0,.01); 
+}
+
+.btn1 a{
+    color: #666666;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.btn1:hover{
+    background-color:#83e7f2;
+}
